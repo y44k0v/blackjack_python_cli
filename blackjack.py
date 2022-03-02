@@ -1,4 +1,7 @@
+# parts taken from:
 # https://stackoverflow.com/questions/31011395/python-print-unicode-character
+
+# Blackjack card
 class Card:
     def __init__(self, value, suit):
         self.value = value
@@ -31,7 +34,7 @@ class Card:
     
     
 from random import shuffle
-
+# Blackjack deck implementation
 class Deck():
 
   def __init__(self, name):
@@ -65,6 +68,7 @@ class Deck():
     else:
       print("No more cards")
       
+# Blackjack game implementation
 class BlackJack():
 
    def __init__(self):
