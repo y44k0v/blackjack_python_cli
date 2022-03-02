@@ -1,4 +1,4 @@
-# parts taken from:
+# parts taken fro the card class from:
 # https://stackoverflow.com/questions/31011395/python-print-unicode-character
 
 # Blackjack card
