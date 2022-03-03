@@ -189,10 +189,13 @@ class BlackJack():
       else:
         total += card[0].getValue()
       self.cnt += 1
-      if total ==21:
+      if total == 21:
+        # unicode changes terminal text color to green
         print("\033[1;32m************************\n\tYOU WIN!!\n************************")
-      elif total>21:
+      elif total > 21:
+        # unicode changes terminal text color to red
         print("\u001b[31m\n\n!!!YOU LOSE!!!")
+    # unicode resets terminal text color to original
     print(f"\u001b[0m\nTotal :{total}")
     return self.playerC
 
