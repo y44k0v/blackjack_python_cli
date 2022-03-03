@@ -100,8 +100,8 @@ def play_blackjack():
   option = 1
   
   while(option):
-    print("\n\n1 - new game\n2 - deal\n3 - exit\n\n")
-    selection = int(input("select an option: "))
+    print("\n\nSelect 1 for new game, 2 for deal and  3 for exit\n")
+    selection = int(input("enter option: "))
     if selection == 1:
       game = BlackJack()
     elif selection == 2: 
