@@ -2,119 +2,101 @@
 
 #### to execute just run the file and follow the instructions
 
-##### Losing game
 
 ```hcl
-$ python3 blackjack.py
-
-1 - new game
-2 - deal
-3 - exit
+BlackJack y44k0v$ python3 blackjack.py 
 
 
-select an option: 1
+Select 1 for new game, 2 for deal and  3 for exit
 
-1 - new game
-2 - deal
-3 - exit
-
-select an option: 2
-
-Total :5
-['[♦️ 5]']
+enter option: 1
 
 
-1 - new game
-2 - deal
-3 - exit
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+Total :4
+['[♦️ 4]']
 
 
-select an option: 2
+Select 1 for new game, 2 for deal and  3 for exit
 
-Total :13
-['[♦️ 5]', '[♠️ 8]']
+enter option: 2
 
-
-1 - new game
-2 - deal
-3 - exit
+Total :6
+['[♦️ 4]', '[♥️ 2]']
 
 
-select an option: 2
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+Total :11
+['[♦️ 4]', '[♥️ 2]', '[♥️ 5]']
 
 
-!!!YOU LOSE!!!
+Select 1 for new game, 2 for deal and  3 for exit
 
-Total :23
-['[♦️ 5]', '[♠️ 8]', '[♦️ Q]']
-
-
-1 - new game
-2 - deal
-3 - exit
-
-
-select an option: 
-```
-
-##### Winning game
-
-```hcl
-select an option: 1
-
-
-1 - new game
-2 - deal
-3 - exit
-
-
-select an option: 2
-
-Total :10
-['[♠️ K]']
-
-
-1 - new game
-2 - deal
-3 - exit
-
-
-select an option: 2
-
-Total :13
-['[♠️ K]', '[♥️ 3]']
-
-
-1 - new game
-2 - deal
-3 - exit
-
-
-select an option: 2
-
-Total :18
-['[♠️ K]', '[♥️ 3]', '[♦️ 5]']
-
-
-1 - new game
-2 - deal
-3 - exit
-
-
-select an option: 2
+enter option: 2
 ************************
         YOU WIN!!
 ************************
 
 Total :21
-['[♠️ K]', '[♥️ 3]', '[♦️ 5]', '[♣️ 3]']
+['[♦️ 4]', '[♥️ 2]', '[♥️ 5]', '[♠️ K]']
 
 
-1 - new game
-2 - deal
-3 - exit
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 1
 
 
-select an option: 
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+Total :4
+['[♥️ 4]']
+
+
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+Total :7
+['[♥️ 4]', '[♣️ 3]']
+
+
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+Total :17
+['[♥️ 4]', '[♣️ 3]', '[♦️ K]']
+
+
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+Total :20
+['[♥️ 4]', '[♣️ 3]', '[♦️ K]', '[♠️ 3]']
+
+
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 2
+
+
+!!!YOU LOSE!!!
+
+Total :24
+['[♥️ 4]', '[♣️ 3]', '[♦️ K]', '[♠️ 3]', '[♣️ 4]']
+
+
+Select 1 for new game, 2 for deal and  3 for exit
+
+enter option: 
 ```
 
